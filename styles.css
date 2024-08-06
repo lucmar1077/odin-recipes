@@ -5,13 +5,14 @@
 h1, h2, h3, h4 {
     font-family: Georgia, serif;
     font-weight: bold;
+    background-color: hsl(22, 100%, 70%);
 }
 
 .description {
     text-align: center;
 }
 
-img {
+div img {
     display: block;
     margin-left: auto;
     margin-right: auto;
