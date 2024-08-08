@@ -21,25 +21,51 @@
     display: inline-block;
 }
 
+div h3 a {
+    color: white;
+    text-decoration: none;
+}
+
 .home {
-    margin-left: 625px;
+    margin-left: 675px;
 }
 
 /* To add: change background color of header,
 change background color of recipe section to
 either slightly lighter or darker*/
 .featured-recipe-header {
-    text-align: center;
+    text-align: left;
     padding: 25px;
-    font-size: 48px;
+    font-size: 72px;
+    background-color: hsl(166, 8%, 60%, 0.2);
+}
+
+.call-to-action {
+    padding: 25px;
+    font-size: 24px;
 }
 
 .featured-recipes {
     width: 500px;
     height: 650px;
     margin: 25px;
+    background-color: hsl(166, 8%, 60%, 0.2);
 }
 
 .recipe-list li {
+    padding: 5px;
     font-size: 24px;
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23808"><path d="m20.71 11.29-6-6A.996.996 0 1 0 13.3 6.7l4.29 4.29H4c-.55 0-1 .45-1 1s.45 1 1 1h13.59l-4.29 4.29a.996.996 0 0 0 .71 1.7c.26 0 .51-.1.71-.29l6-6a.996.996 0 0 0 0-1.41Z"></path></svg>');
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.food-image-collage {
+    position: relative;
+    left: 575px;
+    bottom: 425px;
+    width: 900px;
+    height: auto;
 }
