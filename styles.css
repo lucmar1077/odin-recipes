@@ -1,21 +1,45 @@
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: "futura-pt", sans-serif;
+    margin: 0;    
+    box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
-    font-family: Georgia, serif;
-    font-weight: bold;
-    background-color: hsl(22, 100%, 70%);
+.main-header {
+    width: 100%;
+    height: 75px;
+    background-color: #EF6024;
 }
 
-.description {
+.odin-logo-temp {
+    margin-left: 50px;
+}
+
+/* Home --> Log in buttons */
+.main-header h3 {
+    color: white;
+    padding: 25px;
+    display: inline-block;
+}
+
+.home {
+    margin-left: 625px;
+}
+
+/* To add: change background color of header,
+change background color of recipe section to
+either slightly lighter or darker*/
+.featured-recipe-header {
     text-align: center;
+    padding: 25px;
+    font-size: 48px;
 }
 
-div img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+.featured-recipes {
     width: 500px;
+    height: 650px;
+    margin: 25px;
+}
+
+.recipe-list li {
+    font-size: 24px;
 }
