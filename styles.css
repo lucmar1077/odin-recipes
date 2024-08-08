@@ -14,6 +14,14 @@
     margin-left: 50px;
 }
 
+.odin-logo {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 690px;
+    left: 35px;
+}
+
 /* Home --> Log in buttons */
 .main-header h3 {
     color: white;
@@ -26,8 +34,8 @@ div h3 a {
     text-decoration: none;
 }
 
-.home {
-    margin-left: 675px;
+.push-buttons-right {
+    margin-left: 900px;
 }
 
 /* To add: change background color of header,
@@ -68,4 +76,58 @@ ul li a {
     bottom: 425px;
     width: 900px;
     height: auto;
+}
+
+/* THE FOLLOWING IS FOR THE GRILLED CHEESE
+PORTION OF THE WEBSITE */
+
+.header {
+    font-size: 72px;
+    text-align: center;
+    padding: 30px;
+    margin: 0 350px;
+}
+
+.center-image {
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.description {
+    color: #404040;
+    background-color: hsl(166, 8%, 60%, 0.2);
+    text-align: center;
+    font-size: 24px;
+    padding: 25px;
+    margin: 25px 300px;
+}
+
+h2 {
+    padding: 25px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.center-ingredients {
+    color: #404040;
+    background-color: hsl(166, 8%, 60%, 0.2);
+    padding: 25px;
+    font-size: 20px;
+    margin: 0 500px;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.center-steps {
+    color: #404040;
+    background-color: hsl(166, 8%, 60%, 0.2);
+    padding: 50px;
+    font-size: 20px;
+    margin: 25px 300px;
+}
+
+.return-to-top-button {
+    font-size: 24px;
 }
