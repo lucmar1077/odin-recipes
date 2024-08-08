@@ -131,3 +131,8 @@ h2 {
 .return-to-top-button {
     font-size: 24px;
 }
+
+#hot-chicken {
+    width: 600px;
+    height: auto;
+}
